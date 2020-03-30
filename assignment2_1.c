@@ -15,12 +15,12 @@ int main(void)
 	char t[10];
 	for (i = 0; i < 10; i++)
 	{
-		printf("ÇÐ¹øÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("í•™ë²ˆì„ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		scanf_s("%d", &s[i].number);
 		getchar();
-		printf("ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("ì´ë¦„ì„ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		gets(s[i].name);
-		printf("µî¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("ë“±ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		scanf_s("%d", &s[i].rank);
 		getchar();
 	}
@@ -42,10 +42,10 @@ int main(void)
 			}
 		}
 	}
-	printf("Ã£À» ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì°¾ì„ ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš”: ");
 	gets(t);
 	a=repeat(s, t);
-	printf("Ã£´Â ÇÐ»ýÀÇ ÇÐ¹ø,¼º¸í,µî¼ö´Â %d, %s, %dÀÔ´Ï´Ù.", s[a].number, s[a].name, s[a].rank);
+	printf("ì°¾ëŠ” í•™ìƒì˜ í•™ë²ˆ,ì„±ëª…,ë“±ìˆ˜ëŠ” %d, %s, %dìž…ë‹ˆë‹¤.", s[a].number, s[a].name, s[a].rank);
 	return 0;
 }
 
