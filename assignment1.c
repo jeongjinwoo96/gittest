@@ -14,11 +14,11 @@ int main(void)
 	int i;
 	for (i = 0; i < 3; i++)
 	{
-		printf("ÇÐ°ú¸íÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("í•™ê³¼ëª…ì„ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		gets(s[i].major);
-		printf("ÀÌ¸§À» ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("ì´ë¦„ì„ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		gets(s[i].name);
-		printf("Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		printf("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		scanf_s("%d %d %d", &s[i].p1, &s[i].p2, &s[i].p3);
 		getchar();
 		s[i].p4 = (s[i].p1 + s[i].p2 + s[i].p3) / 3;
